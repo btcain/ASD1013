@@ -18,6 +18,7 @@
 </head>
 
 <body>
+
     <div data-control-title="Home" data-role="page" id="home">
         <div data-role="header" data-theme="a">
             <h3>MVMK Wiki</h3>
@@ -38,6 +39,7 @@
                         Blue</p>
 
                         <p>View More &gt;&gt;</p>
+                        
                     </div>
                 </div>
             </div>
@@ -54,7 +56,6 @@
             </ul>
         </div>
     </div>
-
     <div data-control-title="New" data-role="page" id="new">
         <div data-role="header" data-theme="a">
             <a class="ui-btn-left" data-icon="arrow-l" data-iconpos="notext"
@@ -64,6 +65,8 @@
         </div>
 
         <div data-role="content">
+        <div id="newform" style="display:none">Hello there!</div>
+
             <form action="" data-ajax="false" id="myForm" name="myForm">
                 <div data-controltype="textinput" data-role="fieldcontain">
                     <label for="itemName">Item Name</label> <input data-mini=
@@ -167,6 +170,7 @@
         </div>
 
         <div data-role="content">
+                <div id="newform" style="display:none">Hello there!</div>
             <ul data-divider-theme="b" data-filter="true" data-inset="true"
             data-role="listview" id="browseMe"></ul><a data-role="button" href=
             "#browse" id="clearMe">Clear All</a>
